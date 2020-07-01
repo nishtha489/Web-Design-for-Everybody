@@ -1,0 +1,27 @@
+aside {
+  display : none ;
+}
+
+header {
+  background-color: #a3c2c2 ;
+}
+
+h1 {
+  color : white ;
+  text-align : center ;
+  font-variant: small-caps ;
+}
+
+h2 {
+  font-variant: small-caps;
+  color : #000066 ;
+}
+
+section {
+  background-color:  #999999 ;
+}
+
+a {
+  background-color: #666699 ;
+  color : #000066 ;
+}

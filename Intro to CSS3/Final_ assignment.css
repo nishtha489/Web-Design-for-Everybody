@@ -1,0 +1,134 @@
+body {
+  padding : 0.5%;
+  margin : 0.5%;
+  font-family: "Times New Roman", serif, sans-serif ;
+}
+
+header {
+  background-color: #a3c2c2 ;
+  background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2% ;
+  margin: 0.5% 0.5% 0%;
+}
+
+a {
+  color : #0000cc ;
+}
+
+a:visited {
+  color : #6600cc;
+}
+
+nav a{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius : 5px;
+  text-decoration : none;
+  padding: 1% 2.5%;
+  margin: 2% 7%;
+  color : #0000cc ;
+}
+
+a.active{
+  display: inline-block;
+  background-color: rgba(255, 255, 255);
+  margin: 0 auto ;
+  border-radius : 5px;
+  text-decoration : none;
+  padding : 1% 2.5%;
+  margin: 2% 7%;
+  color : #000000 ;
+}
+
+h1 {
+  color : #ffffff ;
+  text-align : center ;
+  font-variant: small-caps ;
+}
+
+h2 {
+  font-variant: small-caps;
+  color : #000000 ;
+}
+
+aside {
+  display: inline-block;
+  width: 16.5%;
+  background-color: #d28aa4;
+  height: 100vh;
+  float: left;
+  margin: 0% 0.5%;
+}
+
+img {
+  display: block;
+  height: 100px;
+  width: 175px;
+  border: solid 3px black;
+  margin: 15% auto;
+}
+
+section {
+  display: inline-block;
+  float: left;
+  width: 70%;
+}
+
+table {
+  width: inherit;
+  margin-left: 10%;
+  border-spacing: 0.5%;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+th{
+  border-radius: 5px 5px 0px 0px ;
+  background-color: #994db3;
+  color: #ffffff;
+  border: solid #e699ff;
+  border-width: 1px 1px 3px;
+  padding: 2.5%;
+  margin: 2px;
+}
+
+th:first-child{
+  text-align: left;
+  border-radius: 5px 5px 0px 0px ;
+  background-color: #994db3;
+  color: #ffffff;
+  border: solid #e699ff;
+  border-width: 1px 1px 3px;
+  padding: 2.5%;
+  margin: 2px;
+}
+
+td:first-child {
+  text-align: left;
+  padding: 2%;
+  margin: 2px;
+  background-color: rgb(255, 204, 204);
+  opacity: 0.6;
+}
+
+td{
+  text-align: center;
+  padding: 2%;
+  margin: 2px;
+  background-color: rgb(255, 204, 204);
+  opacity: 0.6;
+}
+
+tr:hover > td{
+  opacity: 1;
+}
+
+tr:last-child > td:first-child{
+  border-radius:  0px 0px 0px 5px;
+}
+
+tr:last-child > td:last-child{
+  border-radius: 0px 0px 5px 0px ;
+}
